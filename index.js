@@ -12,7 +12,7 @@ function generateProgressBar() {
       '▁'.repeat(progressBarCapacity - passedProgressBarIndex)
     return `{ ${progressBar} }`
 }
-// README.md Start
+
 const readme = `\
 ### Hi there 👋  I'm v6b  
 ⏳ Year progress ${progressBarOfThisYear} ${(progressOfThisYear * 100).toFixed(2)} %
